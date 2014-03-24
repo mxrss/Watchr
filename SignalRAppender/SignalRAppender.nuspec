@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Log4net.Appender.Watchr</id>
+    <version>2014.03.23</version>
+    <title>WatchR Appender For Log4Net</title>
+    <authors>mxrss</authors>
+    <owners>LogicStructure</owners>
+    <projectUrl>http://michaeltroth.com/watchr</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Get instant insight into what your console app is doing on remote servers.</summary>
+    <description>Want to see what your console app is doing or your website without having to 
+    RDP into the server. Or have a constant connection to PowershellRemoting? Now, you can
+  View what is going real time. Distribute your link to your team mates and start seeing problems
+  before operations gives you the go ahead to look at logs. Checkout the project site if you want to contribute
+  or host your own version of the software.</description>
+    <releaseNotes>
+      Initial commit, contains ability to add create a new watchr endpoint and set it up in your log4net appender to view.
+    </releaseNotes>
+    <copyright>Copyright Logic Structure LTD. LLC 2014</copyright>
+    <tags>appender log4net remote-watch tail remote-tail realtime logging</tags>
+    <dependencies>
+      <dependency id="log4net" version="2.0.3" />
+      <dependency id="Microsoft.AspNet.SignalR.Client" version="2.0.2" />
+      <dependency id="Newtonsoft.Json" version="5.0.8" />
+    </dependencies>
+  </metadata>
+</package>
